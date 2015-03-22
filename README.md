@@ -58,9 +58,9 @@ $ composer update
 
 ```
 
-### Demo Example ###
+### Run Demo Example ###
 
-To run the current demo and show some functionalities of this framework, you can write in your browser:
+In order to run the current demo and show some functionalities of this framework, you can write in your browser:
 
 ```http://www.framework.dev``` or ```http://www.framework.prod``` 
 
