@@ -6,10 +6,12 @@
 
 In order to install the MPWARFWK-SKELETON you must clone this repository in a shared folder with your virtualmachine, for example ```shared/www```
 
-So, from virtualmachine commandline execute the following commands:
+So, from virtualmachine commandline change your current directory to ```/www``` and here execute the following commandline:
 
-```$ cd /www```
-```/www/ $ git clone https://github.com/xserrat/mpwarfwk-skeleton.git framework```
+```zsh
+$ git clone https://github.com/xserrat/mpwarfwk-skeleton.git framework
+
+```
 
 Then, you must create two VirtualHosts, one for Development environment and another one to Production environment:
 
@@ -51,7 +53,7 @@ In order to load all dependencies about MPWARFWK framework, you must execute fro
 
 ```zsh
 
-~/ $ cd /www/framework
-/www/framework $ composer update
+$ cd /www/framework
+$ composer update
 
 ```
