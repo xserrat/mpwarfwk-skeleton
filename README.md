@@ -65,3 +65,9 @@ In order to run the current demo and show some functionalities of this framework
 ```http://www.framework.dev``` or ```http://www.framework.prod``` 
 
 And then, click on demo link to start with demo example.
+
+Registered Emails and Passwords:
+
+* Email: demo@mpwarfwk.com Password: demo
+* Email: admin@mpwarfwk.com Password: admin
+* Email: root@mpwarfwk.com Password: root 
