@@ -1,0 +1,12 @@
+<?php
+
+return array(
+    '/' => [
+        'controller' => '\Controllers\HomeController',
+        'action' => 'welcome'
+    ],
+    '/home-saludar' => [
+        'controller' => '\Controllers\HomeController',
+        'action' => 'saludar'
+    ]
+);

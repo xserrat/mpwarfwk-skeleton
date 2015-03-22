@@ -1,0 +1,19 @@
+services:
+    templating-smarty:
+        class: Services\SmartyTemplatingService
+        arguments:
+            - Mpwarfwk\Component\Template\SmartyTemplate
+    templating-twig:
+        class: Services\TwigTemplatingService
+        arguments:
+            - Mpwarfwk\Component\Template\TwigTemplate
+    user-repository:
+        class: Services\UserRepositoryService
+        arguments:
+            - Entities\Repositories\UserRepository
+            - @pdo-database
+            - Entities\User
+    pdo-database:
+        class: Services\PDODatabaseService
+        arguments:
+            - Mpwarfwk\Component\Db\PDODatabase

@@ -1,0 +1,15 @@
+/:
+  controller: Controllers\DefaultController
+  action: welcome
+/demo:
+  controller: Controllers\DemoController
+  action: init
+/login:
+  controller: Controllers\AuthController
+  action: login
+/register:
+  controller: Controllers\AuthController
+  action: register
+/show-all-users:
+  controller: Controllers\DemoController
+  action: showAllUsers

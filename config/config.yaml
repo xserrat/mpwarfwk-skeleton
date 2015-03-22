@@ -1,0 +1,3 @@
+routing-format: yaml
+default-twig-templates-path: src/Views/Twig
+default-smarty-templates-path: src/Views/Smarty

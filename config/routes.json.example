@@ -1,0 +1,10 @@
+{
+  "/": {
+    "controller": "\\Controllers\\HomeController",
+    "action": "welcome"
+  },
+  "/home": {
+    "controller": "\\Controllers\\HomeController",
+    "action" : "saludar"
+  }
+}
