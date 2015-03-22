@@ -62,6 +62,6 @@ $ composer update
 
 To run the current demo and show some functionalities of this framework, you can write in your browser:
 
-```http://www.framework.dev```
+```http://www.framework.dev``` or ```http://www.framework.prod``` 
 
 And then, click on demo link to start with demo example.
