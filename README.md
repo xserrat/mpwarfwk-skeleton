@@ -57,6 +57,10 @@ $ cd /www/framework
 $ composer update
 
 ```
+### Database Configuration - dbconfig.yaml ###
+
+In order to add your configuration about your database, you can use the file
+```config/dbconfig.yaml.example``` as an example. The correct filename is ```config/dbconfig.yaml```
 
 ### Run Demo Example ###
 
