@@ -1,0 +1,19 @@
+{% extends 'content.twig' %}
+
+{% block allusers %}
+    <table class="table">
+        <thead>
+        <th>Email</th>
+        <th>Password</th>
+        </thead>
+        <tbody>
+
+        {% for user in users %}
+            <tr>
+                <td>{{ user.email }}</td>
+                <td>{{ user.password }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'main.twig' %}
+
+{% block content %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            {% if register == true %}
+                {% block register %}{% endblock %}
+            {% else %}
+                {% if login == true %}
+                    <h1>Hello, {{ user.email }}</h1>
+                    <p>Click on the following button to show all users registered!</p>
+                    <p><a class="btn btn-primary btn-lg" href="/show-all-users" role="button">Show Registred users »</a></p>
+                    {% block allusers %}{% endblock %}
+                {% else %}
+                    <h1>Are you unregistered?</h1>
+                    <p>Click on the following button to register!</p>
+                    <p><a class="btn btn-primary btn-lg" href="/register" role="button">Register here »</a></p>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
