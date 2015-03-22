@@ -57,3 +57,11 @@ $ cd /www/framework
 $ composer update
 
 ```
+
+### Demo Example ###
+
+To run the current demo and show some functionalities of this framework, you can write in your browser:
+
+```http://www.framework.dev```
+
+And then, click on demo link to start with demo example.
