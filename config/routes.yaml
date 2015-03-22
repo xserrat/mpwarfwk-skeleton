@@ -1,6 +1,9 @@
 /:
   controller: Controllers\DefaultController
   action: welcome
+/smarty-prueba:
+  controller: Controllers\DefaultController
+  action: pruebaSmarty
 /demo:
   controller: Controllers\DemoController
   action: init

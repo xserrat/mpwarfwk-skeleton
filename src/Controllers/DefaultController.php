@@ -11,4 +11,9 @@ class DefaultController extends ControllerAbstract{
         $view = $this->renderTwigView('welcome.twig');
         return new HttpResponse($view);
     }
+
+    public function pruebaSmarty(){
+        $view = $this->renderSmartyView('template.tpl', array('name' => 'Mpwar'));
+        return new HttpResponse($view);
+    }
 }
