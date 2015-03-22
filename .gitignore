@@ -1,0 +1,4 @@
+.idea/
+config/dbconfig.yaml
+vendor/
+composer.lock
